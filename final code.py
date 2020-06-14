@@ -39,9 +39,7 @@ data_Stocks['Prediction_Price'] =data_Stocks[['Open Price']].shift(-predict_Pric
 #print(data_Stocks.head())
 #print(data_Stocks.tail()) # hence we can notice the top 30 have been removed then the rows are shifted up .So the last 30 value is NULL
 
-
 """Now we create the independent data set (X)"""
-
 
 # Convert the dataframe data_Stocks to a numpy array
 #Also we would drop the 'Prediction_Price' coloumn as we would now be using independent variable
