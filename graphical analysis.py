@@ -38,7 +38,6 @@ for open_price in data_Price:
 #See what days/months/years were recorded
 #print(dates_S)
 
-
 def predict_prices(dates_S, prices_S, x):
     # Create the 3 Support Vector Regression models
     svr_lin = SVR(kernel='linear', C=1e3)
